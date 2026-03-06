@@ -1,5 +1,5 @@
 <?php
-require_once 'config/database.php';
+require_once 'database.php';
 
 $pageTitle = 'Menu';
 
@@ -91,3 +91,4 @@ if ($result && $result->num_rows > 0) {
 </section>
 
 <?php include 'components/footer.php'; ?>
+
