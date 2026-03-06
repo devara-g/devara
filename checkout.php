@@ -1,5 +1,5 @@
 <?php
-require_once 'config/database.php';
+require_once '/database.php';
 
 $pageTitle = 'Checkout';
 
@@ -21,7 +21,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     // Validate inputs
     $errors = [];
-    if (empty($customerName)) {
+    if (empty$customerName)) {
         $errors[] = 'Nama lengkap wajib diisi';
     }
     if (empty($customerEmail)) {
@@ -160,5 +160,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         </div>
     </div>
 </section>
+
 
 <?php include 'components/footer.php'; ?>
