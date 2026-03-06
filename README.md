@@ -1,2 +1,0 @@
-# devara
-b csbvfdbcdhcvfg
